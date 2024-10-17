@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vw;
+}
+
+#gameboard {
+    display: flex;
+}
+
+#info {
+    height: 3rem;
+}
+
+.chess-piece {
+    height: 180px;
+
+}
+
+.square {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.beige {
+    background-color: beige;
+}
+
+.brown {
+    background-color: brown;
+}
+
+.highlight {
+    background-color: aquamarine;
+}
